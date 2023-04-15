@@ -5,7 +5,8 @@
 </main>
 
 <style lang="scss">
-@use '../lib/styles/base/colors' as colors;
+@use 'base/colors' as colors;
+@use 'base/typography' as typos;
 
 main {
 	background-color: colors.$primary-red;
